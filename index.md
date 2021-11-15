@@ -61,6 +61,7 @@ Trabajo final. Cierre de cursada.
 
 ## Clases
 Aquí encontrarás el material visto en las clases.
+[Clase 1](clase1.md)  
 
 ## Códigos de las clases
 En esta sección se irán subiendo los códigos utilizados durante la cursada.
