@@ -1,58 +1,77 @@
-# ¿Qué es el HTML? #
+# ¿Qué es el HTML?
 
-HTML ("Hypertext Markup Language") no es un lenguaje de programación. Es un lenguaje de marcado que le dice a los navegadores web cómo estructurar las páginas web que estás visitando. Puede ser tan complejo o tan simple como desee el desarrollador web. El HTML consiste en una serie de elementos, que puedes utilizar para encerrar, delimitar o marcar diferentes partes del contenido para hacer que aparezcan de una cierta manera, o actúen de determinada forma. Las etiquetas que delimitan un fragmento de contenido pueden hacer que dicho contenido enlace con otra página, ponga una palabra en cursiva, etcétera. Por ejemplo, dada la siguiente línea de contenido:
-Mi gato es muy gruñón
+HTML ("Hypertext Markup Language") no es un lenguaje de programación. Es un lenguaje de marcado que le dice a los navegadores web cómo estructurar las páginas web que estás visitando. Puede ser tan complejo o tan simple como desee el desarrollador web. El HTML consiste en una serie de elementos, que puedes utilizar para encerrar, delimitar o marcar diferentes partes del contenido para hacer que aparezcan de una cierta manera, o actúen de determinada forma. Las etiquetas que delimitan un fragmento de contenido pueden hacer que dicho contenido enlace con otra página, ponga una palabra en cursiva, etcétera. Por ejemplo, dada la siguiente línea de contenido:  
+Mi gato es muy gruñón  
 Si queremos que la línea sea independiente de otras, podemos especificar que es un párrafo encerrándola con una etiqueta de elemento de párrafo (<p>):
 ~~~
 <p>Mi gato es muy gruñón</p>
 ~~~
-`<p>Mi gato es muy gruñón</p>
-`
-Nota: Las etiquetas en HTML no distinguen entre mayúsculas y minúsculas. Así que se pueden escribir tanto en mayúsculas como en minúsculas. Por ejemplo, una etiqueta <title> se puede escribir como <title>, <TITLE>, <Title>, <TiTle>, etc., y funcionará correctamente. La mejor práctica, sin embargo, es escribir todas las etiquetas en minúsculas para mantener la coherencia y legibilidad, entre otros motivos.
+**Nota:** Las etiquetas en HTML no distinguen entre mayúsculas y minúsculas. Así que se pueden escribir tanto en mayúsculas como en minúsculas. Por ejemplo, una etiqueta <title> se puede escribir como `<title>, <TITLE>, <Title>, <TiTle>`, etc., y funcionará correctamente. La mejor práctica, sin embargo, es escribir todas las etiquetas en minúsculas para mantener la coherencia y legibilidad, entre otros motivos.
 
-Anatomía de un elemento HTML
+## Anatomía de un elemento HTML
 Exploremos un poco el elemento párrafo:
  
-Las principales partes de nuestro elemento son:
-●	La etiqueta de apertura: consiste en el nombre del elemento (en este caso, p), encerrado entre paréntesis angulares de apertura y cierre (mayor que y menor que). Esta etiqueta de apertura marca dónde comienza el elemento o comienza a tener efecto. En este ejemplo, precede al comienzo del texto del párrafo.
-●	El contenido: Este es el contenido del elemento. En este ejemplo, es el texto del párrafo.
-●	La etiqueta de cierre: Es lo mismo que la etiqueta de apertura, excepto que incluye una barra diagonal antes del nombre del elemento. Esto indica dónde termina el elemento; en este caso, dónde finaliza el párrafo. No incluir una etiqueta de cierre es un error común de principiante, y puede conducir a extraños resultados.
+Las principales partes de nuestro elemento son:  
+* La etiqueta de apertura: consiste en el nombre del elemento (en este caso, p), encerrado entre paréntesis angulares de apertura y cierre (mayor que y menor que). Esta etiqueta de apertura marca dónde comienza el elemento o comienza a tener efecto. En este ejemplo, precede al comienzo del texto del párrafo.
+* El contenido: Este es el contenido del elemento. En este ejemplo, es el texto del párrafo.
+* La etiqueta de cierre: Es lo mismo que la etiqueta de apertura, excepto que incluye una barra diagonal antes del nombre del elemento. Esto indica dónde termina el elemento; en este caso, dónde finaliza el párrafo. No incluir una etiqueta de cierre es un error común de principiante, y puede conducir a extraños resultados.  
 El elemento lo conforman la etiqueta de apertura, seguida del contenido, seguido de la etiqueta de cierre.
-Elementos anidados
-Se pueden poner elementos dentro de otros elementos. Esto se llama anidamiento. Si quisiéramos decir que nuestro gato es muy gruñón, podríamos encerrar la palabra muy en un elemento <strong> para que aparezca destacada.
+
+### Elementos anidados
+Se pueden poner elementos dentro de otros elementos. Esto se llama anidamiento. Si quisiéramos decir que nuestro gato es muy gruñón, podríamos encerrar la palabra muy en un elemento `<strong>` para que aparezca destacada.
+~~~
 <p>Mi gato es <strong>muy</strong> gruñón.</p>
+~~~
 Hay una forma correcta e incorrecta de anidar. En el ejemplo anterior, primero abrimos el elemento p, luego abrimos el elemento strong. Para un anidamiento adecuado, primero debemos cerrar el elemento strong, antes de cerrar el p.
 El siguiente es un ejemplo de la forma incorrecta de anidar:
+~~~
 <p>Mi gato es <strong>muy gruñón.</p></strong>
+~~~
 Los elementos tienen que abrirse y cerrarse correctamente para que estén claramente dentro o fuera el uno del otro. Con el tipo de superposición en el ejemplo anterior, el navegador tiene que adivinar tu intención. Este tipo de adivinanzas puede producir resultados inesperados.
-Elementos de bloque y elementos en línea
-Hay dos categorías importantes de elementos en HTML — Estos son los elementos de bloque y los elementos en línea.
+
+### Elementos de bloque y elementos en línea
+Hay dos categorías importantes de elementos en HTML. Estos son los elementos de bloque y los elementos en línea.
+
 Los elementos de bloque forman un bloque visible en la página. Aparecerán en una línea nueva después de cualquier contenido anterior. Cualquier contenido que vaya después también aparecerá en una línea nueva. Los elementos a nivel de bloque suelen ser elementos estructurales de la página. Por ejemplo, un elemento a nivel de bloque puede representar encabezados, párrafos, listas, menús de navegación o pies de página. Un elemento a nivel de bloque no estaría anidado dentro de un elemento en línea, pero podría estar anidado dentro de otro elemento a nivel de bloque.
+
 Los elementos en línea están contenidos dentro de elementos de bloque y delimitan solo pequeñas partes del contenido del documento; (no párrafos enteros o agrupaciones de contenido) Un elemento en línea no hará que aparezca una nueva línea en el documento. Suele utilizarse con texto. Por ejemplo es el caso de un elemento <a> (hipervínculo) o elementos de énfasis como <em> o <strong>.
+
 Considera el siguiente ejemplo:
+~~~
 <em>primero</em><em>segundo</em><em>tercero</em>
 <p>cuarto</p><p>quinto</p><p>sexto</p>
 <em> es un elemento en línea. Así, como puedes observar, los tres primeros elementos se sitúan en la misma línea, uno tras otro sin espacio entre ellos. Por otro lado, <p> es un elemento a nivel de bloque. Cada elemento <p> aparece en una nueva línea, con un espacio arriba y abajo. (El espaciado se debe al estilo CSS predeterminado que el navegador aplica a los párrafos).
+~~~
 Nota: Los términos «en bloque» (block) y «en línea» (inline), tal como se usan en este tema, no se deberían confundir con los tipos de casillas de CSS que se conocen con el mismo nombre. Aunque de manera predeterminada están relacionados, el hecho de cambiar el tipo de aspecto visual del CSS no cambia la categoría del elemento ni afecta a aquellos elementos que pueda contener. Una de las razones por las que HTML5 abandonó el uso de estos términos fue para evitar este tipo de confusión.
-Elementos vacíos
+
+### Elementos vacíos
 No todos los elementos siguen el patrón de etiqueta de apertura, contenido y etiqueta de cierre. Algunos elementos consisten solo en una etiqueta única, que se utiliza generalmente para insertar/incrustar algo en el documento en el lugar donde se le quiere incluir. Por ejemplo, el elemento <img> inserta una imagen en la página:
+~~~
 <img src="firefox-icon.png">
+~~~
 Nota: Los elementos vacíos en ocasiones también se llaman elementos nulos (void elements).
-Atributos
+
+### Atributos
 Los elementos también pueden tener atributos. Los atributos tienen este aspecto:
- 
+~~~
+<p class="nota">Mi gato es muy gruñón</p>  
+~~~
+Donde class="nota" es un atributo de p.
+
 Los atributos contienen información extra sobre el elemento que no se mostrará en el contenido. En este caso, el atributo class asigna al elemento un identificador que se puede utilizar para dotarlo de información de estilo.
-Un atributo debería tener:
-●	Un espacio entre este y el nombre del elemento. (Para un elemento con más de un atributo, los atributos también deben estar separados por espacios).
-●	El nombre del atributo, seguido por un signo igual.
-●	Un valor del atributo, rodeado de comillas de apertura y cierre.
-Otro ejemplo de un elemento es <a>. Esto significa ancla. Una ancla puede convertir el texto que encierra en un hipervínculo. Las anclas pueden tener varios atributos, por ejemplo:
-●	href: El valor de este atributo indica la dirección web a la que se quiere que apunte el enlace, que será hacia donde nos lleve el navegador cuando se haga clic sobre el elemento. Por ejemplo, href="https://www.mozilla.org/".
-●	title: El atributo title añade información adicional sobre el enlace, como puede ser el título de la página que vinculas. Por ejemplo, title="La página de inicio de Mozilla". Esta información aparecerá cuando se le pase el ratón por encima.
-●	target: El atributo target especifica el contexto de navegación que va a usar para mostrar el enlace. Por ejemplo, target="_blank" abrirá el enlace en una nueva pestaña. Si quieres mostrar el enlace en la pestaña activa, simplemente omite este atributo.
-●	id: identifica al elemento y debe ser único. Referencia: H93 
-●	lang: cambios en el idioma. Referencia: H58
-Atributos booleanos
+Un atributo debería tener:  
+* Un espacio entre este y el nombre del elemento. (Para un elemento con más de un atributo, los atributos también deben estar separados por espacios).
+* El nombre del atributo, seguido por un signo igual.
+* Un valor del atributo, rodeado de comillas de apertura y cierre.
+
+Otro ejemplo de un elemento es `<a>`. Esto significa ancla. Una ancla puede convertir el texto que encierra en un hipervínculo. Las anclas pueden tener varios atributos, por ejemplo:
+* href: El valor de este atributo indica la dirección web a la que se quiere que apunte el enlace, que será hacia donde nos lleve el navegador cuando se haga clic sobre el elemento. Por ejemplo, href="https://www.mozilla.org/".
+* title: El atributo title añade información adicional sobre el enlace, como puede ser el título de la página que vinculas. Por ejemplo, title="La página de inicio de Mozilla". Esta información aparecerá cuando se le pase el ratón por encima.
+* target: El atributo target especifica el contexto de navegación que va a usar para mostrar el enlace. Por ejemplo, target="_blank" abrirá el enlace en una nueva pestaña. Si quieres mostrar el enlace en la pestaña activa, simplemente omite este atributo.
+* id: identifica al elemento y debe ser único. Referencia: H93 
+* lang: cambios en el idioma. Referencia: H58
+
+### Atributos booleanos
 En ocasiones puedes ver atributos escritos sin valor. Esto está permitido. Estos se denominan atributos booleanos. Los atributos booleanos solo pueden tener un valor, que generalmente es el mismo que el nombre del atributo. Por ejemplo, considera el atributo disabled, que puedes asignar a los elementos de entrada del formulario. (Usa esto para deshabilitar los elementos de entrada del formulario para que el usuario no pueda realizar entradas. Los elementos desactivados suelen tener una apariencia atenuada). Por ejemplo:
 <input type="text" disabled="disabled">
 De manera abreviada, también es posible escribirlo como se describe a continuación (además, se ha incluido un elemento de entrada de formulario no desactivado como referencia, para dar una idea más precisa de lo que sucede):
