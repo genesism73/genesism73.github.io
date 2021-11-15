@@ -1,9 +1,13 @@
-# ¿Qué es el HTML?
+# ¿Qué es el HTML? #
 
 HTML ("Hypertext Markup Language") no es un lenguaje de programación. Es un lenguaje de marcado que le dice a los navegadores web cómo estructurar las páginas web que estás visitando. Puede ser tan complejo o tan simple como desee el desarrollador web. El HTML consiste en una serie de elementos, que puedes utilizar para encerrar, delimitar o marcar diferentes partes del contenido para hacer que aparezcan de una cierta manera, o actúen de determinada forma. Las etiquetas que delimitan un fragmento de contenido pueden hacer que dicho contenido enlace con otra página, ponga una palabra en cursiva, etcétera. Por ejemplo, dada la siguiente línea de contenido:
 Mi gato es muy gruñón
 Si queremos que la línea sea independiente de otras, podemos especificar que es un párrafo encerrándola con una etiqueta de elemento de párrafo (<p>):
+~~~
 <p>Mi gato es muy gruñón</p>
+~~~
+`<p>Mi gato es muy gruñón</p>
+`
 Nota: Las etiquetas en HTML no distinguen entre mayúsculas y minúsculas. Así que se pueden escribir tanto en mayúsculas como en minúsculas. Por ejemplo, una etiqueta <title> se puede escribir como <title>, <TITLE>, <Title>, <TiTle>, etc., y funcionará correctamente. La mejor práctica, sin embargo, es escribir todas las etiquetas en minúsculas para mantener la coherencia y legibilidad, entre otros motivos.
 
 Anatomía de un elemento HTML
