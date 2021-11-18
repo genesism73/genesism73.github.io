@@ -4,7 +4,7 @@
 Mentora: Patricia Mamani  
 Colaboradores: Josías Vázquez  
 Fecha de inicio: 18/11/2021  
-Duración: 6 clases, los días martes de 18:00 a 19:30hs. (Argentina)  
+Duración: 6 clases, los días martes de 18:30 a 20:00 hora de Argentina  
 
 ## Objetivo
 Que los participantes adquieran conocimientos básicos sobre el lenguaje nativo de las páginas web para la creación de un documento de HTML accesible desde cero.
