@@ -34,7 +34,7 @@ Hay dos categorías importantes de elementos en HTML. Estos son los elementos de
 
 Los elementos de bloque forman un bloque visible en la página. Aparecerán en una línea nueva después de cualquier contenido anterior. Cualquier contenido que vaya después también aparecerá en una línea nueva. Los elementos a nivel de bloque suelen ser elementos estructurales de la página. Por ejemplo, un elemento a nivel de bloque puede representar encabezados, párrafos, listas, menús de navegación o pies de página. Un elemento a nivel de bloque no estaría anidado dentro de un elemento en línea, pero podría estar anidado dentro de otro elemento a nivel de bloque.
 
-Los elementos en línea están contenidos dentro de elementos de bloque y delimitan solo pequeñas partes del contenido del documento; (no párrafos enteros o agrupaciones de contenido) Un elemento en línea no hará que aparezca una nueva línea en el documento. Suele utilizarse con texto. Por ejemplo es el caso de un elemento <a> (hipervínculo) o elementos de énfasis como <em> o <strong>.
+Los elementos en línea están contenidos dentro de elementos de bloque y delimitan solo pequeñas partes del contenido del documento; (no párrafos enteros o agrupaciones de contenido) Un elemento en línea no hará que aparezca una nueva línea en el documento. Suele utilizarse con texto. Por ejemplo es el caso de un elemento `<a>` (hipervínculo) o elementos de énfasis como `<em>` o `<strong>`.
 
 Considera el siguiente ejemplo:
 ~~~
@@ -42,7 +42,7 @@ Considera el siguiente ejemplo:
 <p>cuarto</p><p>quinto</p><p>sexto</p>
 <em> es un elemento en línea. 
 ~~~
-Así, como puedes observar, los tres primeros elementos se sitúan en la misma línea, uno tras otro sin espacio entre ellos. Por otro lado, <p> es un elemento a nivel de bloque. Cada elemento <p> aparece en una nueva línea, con un espacio arriba y abajo. (El espaciado se debe al estilo CSS predeterminado que el navegador aplica a los párrafos).
+Así, como puedes observar, los tres primeros elementos se sitúan en la misma línea, uno tras otro sin espacio entre ellos. Por otro lado, `<p>` es un elemento a nivel de bloque. Cada elemento `<p>` aparece en una nueva línea, con un espacio arriba y abajo. (El espaciado se debe al estilo CSS predeterminado que el navegador aplica a los párrafos).
 
 Nota: Los términos «en bloque» (block) y «en línea» (inline), tal como se usan en este tema, no se deberían confundir con los tipos de casillas de CSS que se conocen con el mismo nombre. Aunque de manera predeterminada están relacionados, el hecho de cambiar el tipo de aspecto visual del CSS no cambia la categoría del elemento ni afecta a aquellos elementos que pueda contener. Una de las razones por las que HTML5 abandonó el uso de estos términos fue para evitar este tipo de confusión.
 
@@ -121,7 +121,7 @@ La mayor parte del texto estructurado está compuesto por encabezados y párrafo
 
 El contenido estructurado simplifica la experiencia en la lectura y se disfruta más.
 
-En HTML, cada párrafo tiene que estar delimitado por un elemento <p>, como en este ejemplo:
+En HTML, cada párrafo tiene que estar delimitado por un elemento `<p>`, como en este ejemplo:
 ~~~
 <p>Soy un párrafo, ¡desde luego que lo soy!</p>
 ~~~
@@ -195,3 +195,5 @@ En HTML usamos el elemento `<strong>` (importancia fuerte) para marcar tales exp
 Los elementos que hemos comentado hasta ahora tienen asociada una semántica clara. La situación con `<b>` (negrita o «bold»), `<i>` (cursiva o «italic») y `<u>` (subrayado o «underline») es algo más complicada. Surgieron para que las personas pudieran escribir textos en negrita, cursiva o subrayado en un tiempo en el que pocos navegadores o ninguno admitían el CSS. Elementos como estos, que solo afectan a la presentación y no a la semántica, se conocen como elementos de presentación y no se deberían usar porque, como hemos visto, la semántica es muy importante para la accesibilidad y el SEO, entre otros aspectos.
 
 Una observación prudente acerca del subrayado: La gente suele asociar estrechamente el subrayado con los hipervínculos. Por ello en la web es mejor reservar el subrayado para los enlaces. Utiliza el elemento `<u>` cuando resulte apropiado semánticamente, pero considera usar CSS para cambiar el subrayado predeterminado por algo más adecuado en la web.
+
+[Volver a la página de Inicio](index.md)  

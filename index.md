@@ -2,7 +2,7 @@
 
 **Fundación itgrarte**  
 Mentora: Patricia Mamani  
-Colaborador: Josías Vázquez  
+Colaboradores: Josías Vázquez y Ximena Romero  
 Fecha de inicio: 18/11/2021  
 Duración: 6 clases, los días martes de 18:00 a 19:30hs. (Argentina)  
 
@@ -50,7 +50,10 @@ Breve introducción a CSS y JavaScript.
 Trabajo final. Cierre de cursada. 
 
 ## Información adicional  
+Para quienes usan lector de pantalla NVDA, se va a utilizar el complemento Remote. A continuación aparece el link para que puedan descargarlo:   
 [Complemento Remote para NVDA](https://nvda.es/2017/10/21/nvda-remote-support/)  
+
+Editores de código sugeridos:  
 [Notepad++](https://notepad-plus-plus.org/downloads/)  
 [Complemento NVDA para Notepad++](https://nvda.es/2018/03/27/notepad/)  
 
@@ -61,7 +64,7 @@ Trabajo final. Cierre de cursada.
 
 ## Clases
 Aquí encontrarás el material visto en las clases.
-[Clase 1](clase1.md)  
+<!-- [Clase 1](clase1.md)   -->
 
 ## Códigos de las clases
 En esta sección se irán subiendo los códigos utilizados durante la cursada.
