@@ -2,7 +2,7 @@
 
 **Fundación itgrarte**  
 Mentora: Patricia Mamani  
-Colaboradores: Josías Vázquez y Ximena Romero  
+Colaboradores: Josías Vázquez  
 Fecha de inicio: 18/11/2021  
 Duración: 6 clases, los días martes de 18:00 a 19:30hs. (Argentina)  
 
@@ -47,23 +47,20 @@ Trabajo práctico 2
 
 **Clase 6**  
 Breve introducción a CSS y JavaScript.  
-Trabajo final. Cierre de cursada. 
+Presentación del Trabajo final. Cierre de cursada. 
 
 ## Información adicional  
-Para quienes usan lector de pantalla NVDA, se va a utilizar el complemento Remote. A continuación aparece el link para que puedan descargarlo:   
+
+Para quienes usan lector de pantalla NVDA, se va a utilizar el complemento Remote. Pueden descargarlo del siguiente link:   
 [Complemento Remote para NVDA](https://nvda.es/2017/10/21/nvda-remote-support/)  
 
-Editores de código sugeridos:  
+Editor de código sugerido y su complemento para NVDA:  
 [Notepad++](https://notepad-plus-plus.org/downloads/)  
 [Complemento NVDA para Notepad++](https://nvda.es/2018/03/27/notepad/)  
 
-[Visual Studio Code](https://code.visualstudio.com/download)  
-[Complemento NVDA para VSCode](https://nvda.es/2020/03/14/nvda-para-vs-code-nvda-for-vs-code/)  
-[Extensión Spanish Language Pack](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-es)  
-
 
 ## Clases
-Aquí encontrarás el material visto en las clases.
+Aquí encontrarás el material de las clases:   
 <!-- [Clase 1](clase1.md)   -->
 
 ## Códigos de las clases
