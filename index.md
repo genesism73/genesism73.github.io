@@ -2,9 +2,9 @@
 
 **Fundación itgrarte**  
 Mentora: Patricia Mamani  
-Colaboradores: Josías Vázquez  
+Colaboradores: Josías Vázquez y Sol Escobar
 Fecha de inicio: 18/11/2021  
-Duración: 6 clases, los días martes de 18:30 a 20:00 hora de Argentina  
+Duración: 6 clases, los días jueves de 18:30 a 20:00 hora de Argentina  
 
 ## Objetivo
 Que los participantes adquieran conocimientos básicos sobre el lenguaje nativo de las páginas web para la creación de un documento de HTML accesible desde cero.
@@ -61,7 +61,8 @@ Editor de código sugerido y su complemento para NVDA:
 
 ## Clases
 Aquí encontrarás el material de las clases:   
-<!-- [Clase 1](clase1.md)   -->
+[Clase 1](clase1.md)   
 
 ## Códigos de las clases
 En esta sección se irán subiendo los códigos utilizados durante la cursada.
+[Clase 1](codigos/saludo.html)  
