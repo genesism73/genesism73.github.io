@@ -2,7 +2,7 @@
 
 **Fundación itgrarte**  
 Mentora: Patricia Mamani  
-Colaboradores: Josías Vázquez y Sol Escobar
+Colaboradores: Josías Vázquez y Sol Escobar  
 Fecha de inicio: 18/11/2021  
 Duración: 6 clases, los días jueves de 18:30 a 20:00 hora de Argentina  
 
