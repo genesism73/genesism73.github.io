@@ -64,5 +64,5 @@ Aquí encontrarás el material de las clases:
 [Clase 1](clase1.md)   
 
 ## Códigos de las clases
-En esta sección se irán subiendo los códigos utilizados durante la cursada.
+En esta sección se irán subiendo los códigos utilizados durante la cursada.  
 [Clase 1](codigos/saludo.html)  
