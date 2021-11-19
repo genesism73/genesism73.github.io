@@ -16,7 +16,7 @@ Los participantes deben contar con:
 
 Se utilizarán los siguientes programas:
 * Un navegador de internet: Google Chrome, Firefox, etc.
-* Un editor de código: Visual Studio Code o Notepad++ preferentemente.
+* Un editor de código, preferentemente Notepad++.
 
 ## Pautas generales:
 
@@ -65,4 +65,4 @@ Aquí encontrarás el material de las clases:
 
 ## Códigos de las clases
 En esta sección se irán subiendo los códigos utilizados durante la cursada.  
-[Clase 1](codigos/saludo.html)  
+[Clase 1](codigos/clase1.zip)  
