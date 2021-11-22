@@ -35,7 +35,7 @@ Presentación del curso y Fundación itgrarte.
 Anatomía de un documento HTML. Conociendo la estructura de un documento HTML.
 
 **clase 3**  
-Estructura de un documento HTML. Elementos semánticos.  
+Estructura de un documento HTML. Listas. Enlaces.  
 Trabajo práctico 1
 
 **Clase 4**  
