@@ -62,7 +62,14 @@ Editor de código sugerido y su complemento para NVDA:
 ## Clases
 Aquí encontrarás el material de las clases:   
 [Clase 1 Material teórico](clase1.md)   
+[Clase 2 Material teórico](clase2.md)   
 
 ## Códigos de las clases
 En esta sección se irán subiendo los códigos utilizados durante la cursada.  
 [Códigos Clase 1](codigos/clase1.zip)  
+[Códigos Clase 2](codigos/clase2.zip)  
+
+## Envío de tareas
+
+Pueden enviarme sus trabajos a mi correo electrónico: patriciamamani73@gmail.com  
+
