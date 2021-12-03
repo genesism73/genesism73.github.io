@@ -54,7 +54,8 @@ El humilde favicon ha existido durante muchos años. Es el primer icono de este 
 
 Para añadir un favicon a tu página:
 1. Guárdalo en el mismo directorio que la página index de tu sitio, en formato .ico (la mayoría de los buscadores admiten favicon en los formatos más comunes como .gif o .png, pero usar el formato ICO garantiza que funcionará hasta en Internet Explorer 6.)
-2. Añade la siguiente línea de referencia en el `<head>` de tu HTML:
+2. Añade la siguiente línea de referencia en el `<head>` de tu HTML:  
+
 ~~~
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 ~~~
