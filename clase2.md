@@ -31,7 +31,7 @@ El elemento `<title>` se usa para poner un título al documento. Sin embargo, es
 - El elemento `<h1>` aparece en la página cuando se carga en el navegador, en general debería haber uno solo por página, para especificar el título del contenido de tu página.  
 - El elemento `<title>` es un metadato que representa el título de todo el documento HTML (no del contenido del documento).
 
-### Metadatos: el elemento <meta>
+### Metadatos: el elemento meta
 
 Los metadatos son datos que describen datos, y HTML tiene una forma «oficial» de introducir metadatos en un documento, el elemento `<meta>`. Hay diferentes tipos de elementos `<meta>` que se pueden incluir en el `<head>` de tu página, pero sólo vamos a explicar algunas cuestiones con las que seguramente te vas a encontrar, solo para que te hagas una idea.  
 Muchos elementos `<meta>` incluyen atributos name y content:  
