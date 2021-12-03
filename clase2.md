@@ -64,13 +64,17 @@ Para añadir un favicon a tu página:
 
 Prácticamente todos los sitios web usan CSS para darles un buen aspecto y JavaScript para añadir funcionalidades interactivas, como reproductores de vídeo, mapas, juegos y demás. La manera más habitual de añadir CSS y JavaScript a una página web es con los elementos `<link>` y el elemento `<script>`, respectivamente.
 - El elemento `<link>` siempre debe ir dentro del `<head>` de tu documento. Este toma dos atributos, rel="stylesheet", que indica que es la hoja de estilo del documento, y href, que contiene la ruta al archivo de la hoja de estilo: 
+
 ~~~
 <link rel="stylesheet" href="my-css-file.css">
 ~~~
+
 - El elemento `<script>` también debería ir en el head, y debería incluir un atributo src con la ruta al JavaScript que quieres cargar, que básicamente le dice al navegador que cargue el JavaScript al mismo tiempo que el HTML de la página. Esto es útil porque hace que todo el HTML se cargue antes de ejecutar el JavaScript, para que no haya errores porque el JavaScript ha intentado acceder a un elemento HTML que todavía no existe. De hecho hay múltiples formas de gestionar la carga del JavaScript en una página, pero esta es «a prueba de bombas» para los navegadores modernos.
+
 ~~~
 <script src="my-js-file.js"></script>
 ~~~
+
 **Nota:**  
 El elemento `<script>` puede parecer un elemento vacío pero no lo es, y por lo tanto necesita una etiqueta de cierre. En vez de apuntar a un archivo de script externo, también puedes colocar tu código dentro del elemento `<script>`.
 
