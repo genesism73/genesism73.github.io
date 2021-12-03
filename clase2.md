@@ -63,7 +63,7 @@ Para añadir un favicon a tu página:
 ### Aplicar CSS y JavaScript a HTML
 
 Prácticamente todos los sitios web usan CSS para darles un buen aspecto y JavaScript para añadir funcionalidades interactivas, como reproductores de vídeo, mapas, juegos y demás. La manera más habitual de añadir CSS y JavaScript a una página web es con los elementos `<link>` y el elemento `<script>`, respectivamente.
-- El elemento `<link>` siempre debe ir dentro del `<head>` de tu documento. Este toma dos atributos, rel="stylesheet", que indica que es la hoja de estilo del documento, y href, que contiene la ruta al archivo de la hoja de estilo: 
+- El elemento `<link>` siempre debe ir dentro del `<head>` de tu documento. Este toma dos atributos, rel="stylesheet", que indica que es la hoja de estilo del documento, y href, que contiene la ruta al archivo de la hoja de estilo:   
 
 ~~~
 <link rel="stylesheet" href="my-css-file.css">
@@ -95,3 +95,4 @@ Es bueno entender el significado global de todos los elementos definitorios de l
 - `<nav>` contiene la funcionalidad de navegación principal de la página. Los enlaces secundarios, no entrarán en la navegación.
 - `<footer>` representa un grupo de contenido al final de una página.
 
+[Volver a la página de Inicio](index.md)  
