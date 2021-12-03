@@ -65,7 +65,19 @@ Hay que lograr que nuestros enlaces sean accesibles para todo tipo de lectores, 
 - Redacta la etiqueta del enlace de la manera más breve y concisa posible 
 - Minimiza los casos en los que varias copias del mismo texto están vinculadas a diferentes lugares. Esto puede causar problemas a los usuarios de lectores de pantalla, si hay una lista de enlaces fuera de contexto que están etiquetados como "haz clic aquí", "haz clic aquí", "haz clic aquí".
 
+## Atributos elementales
+
+**href**   
+Contiene una URL o un fragmento de URL al cual apunta el enlace.  
+Un fragmento de URL es un nombre ("name") precedido por el símbolo de número (#), el cual especifíca una ubicación interna objetivo (un ID de un elemento HTML) dentro del actual documento. Las URLs no están restringidas sólo a documentos de internet basados en HTTP, sin embargo pueden utilizar cualquier protocolo soportado por el navegador. 
+
+**target**   
+Especifica en donde desplegar la URL enlazada. Es un nombre, o palabra clave, un contexto de navegación: una pestaña, ventana. Las siguientes palabras clave tienen significado especial:  
+- _self: Carga la URL en el mismo contexto de navegación que el actual. Este es el comportamiento por defecto.
+- _blank: Carga la URL en un nuevo contexto de navegación. Usualmente es una pestaña
+- _parent: Carga la URL en el contexto de navegación padre del actual. Si no existe el padre, este se comporta del mismo modo que _self.
+- _top: Carga la URL en le contexto más alto de navegación . Si no hay padre, este se comporta del mismo modo que _self.
 
 
-
+[Volver a la página de Inicio](index.md)  
 
