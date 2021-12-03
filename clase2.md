@@ -95,4 +95,32 @@ Es bueno entender el significado global de todos los elementos definitorios de l
 - `<nav>` contiene la funcionalidad de navegación principal de la página. Los enlaces secundarios, no entrarán en la navegación.
 - `<footer>` representa un grupo de contenido al final de una página.
 
+~~~
+<body>
+  <header>
+    <h1>Header</h1>
+  </header>
+
+  <nav>
+    <!-- Menú de navegación principal -->
+  </nav>
+  <!-- Contenido principal -->
+  <main>
+
+  <!-- Un artículo -->
+  <article>
+    <h2>Article heading</h2>
+    <p> </p>
+  </article>
+  <aside>
+    <h2>Barra lateral</h2>
+  </aside>
+
+  </main>
+  <footer>
+    <p> </p>
+  </footer>
+</body>
+~~~
+
 [Volver a la página de Inicio](index.md)  

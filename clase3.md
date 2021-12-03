@@ -36,12 +36,12 @@ La estructura de marcado es la misma que para las listas no ordenadas, excepto q
 ### Lista descriptiva
 El elemento HTML `<dl>`  representa una lista descriptiva. El elemento encierra una lista de grupos de términos (especificados con el uso del elemento `<dt>`) y de descripciones (proveídas con elementos `<dd>`). 
 ~~~
-<p>Navegadores</p>
-<dl title=”Navegadores”>
-	<dt>Chrome</dt>
-	<dd>Un navegador.</dd>
-<dt>Firefox</dt>
-	<dd>Otro navegador.</dd>
+<p>Felinos</p>
+<dl>
+	<dt>guepardo</dt>
+	<dd>El felino más rápido</dd>
+<dt>León</dt>
+	<dd>El rey de la selva</dd>
 </dl>
 ~~~
 
