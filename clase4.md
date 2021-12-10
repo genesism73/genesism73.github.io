@@ -57,7 +57,7 @@ Un paso fundamental para crear una tabla de datos accesible es designar encabeza
 Los encabezados de las tablas nunca deben estar vacíos. Esto suele ser  común para la celda superior izquierda de algunas tablas.
 
 ### El atributo scope  
-Este atributo identifica si un encabezado de tabla es un encabezado de columna o un encabezado de fila. Aquí está el marcado para la tabla, usando el scope atributo:
+Este atributo identifica si un encabezado de tabla es un encabezado de columna o un encabezado de fila.
 
 El scope atributo le dice al navegador y al lector de pantalla que todo dentro de una columna, que está asociado al encabezado con scope="col", en esa columna, y que una celda con scope="row" es un encabezado para todas las celdas en esa fila.
 
