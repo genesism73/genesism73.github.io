@@ -82,4 +82,4 @@ Todos los elementos `<th>` deben tener siempre un atributo de alcance (scope). S
 				<td>8 de agosto</td>
 			</tr>
 		</table>
-    ~~~
+~~~
