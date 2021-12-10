@@ -65,21 +65,21 @@ Todos los elementos `<th>` deben tener siempre un atributo de alcance (scope). S
 
 ~~~
 <table>
-			<caption>Fecha de cumpleaños de amigos</caption>
-			<tr>
-				<th scope="col">Nombre</th>
-				<th scope="col">Provincia</th>
-				<th scope="col">Fecha cumple</th>
-			</tr>
-			<tr>
-				<th scope="row">Ana</th>
-				<td>Salta</td>
-				<td>28 de julio</td>
-			</tr>
-			<tr>
-				<th scope="row">Juan</th>
-				<td>Córdoba</td>
-				<td>8 de agosto</td>
-			</tr>
-		</table>
+	<caption>Fecha de cumpleaños de amigos</caption>
+	<tr>
+		<th scope="col">Nombre</th>
+		<th scope="col">Provincia</th>
+		<th scope="col">Fecha cumple</th>
+	</tr>
+	<tr>
+		<th scope="row">Ana</th>
+		<td>Salta</td>
+		<td>28 de julio</td>
+	</tr>
+	<tr>
+		<th scope="row">Juan</th>
+		<td>Córdoba</td>
+		<td>8 de agosto</td>
+	</tr>
+</table>
 ~~~
