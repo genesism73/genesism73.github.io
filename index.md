@@ -64,6 +64,7 @@ Aquí encontrarás el material de las clases:
 [Clase 1 Material teórico](clase1.md)   
 [Clase 2 Material teórico](clase2.md)   
 [Clase 3 Material teórico](clase3.md)   
+[Clase 4 Material teórico](clase4.md)   
 
 
 ## Códigos de las clases
@@ -71,7 +72,7 @@ En esta sección se irán subiendo los códigos utilizados durante la cursada.
 [Códigos Clase 1](codigos/clase1.zip)  
 [Códigos Clase 2](codigos/clase2.zip)  
 [Códigos Clase 3](codigos/clase3.zip)  
-[Códigos Clase 4](codigos/clase4.zip)  
+[Códigos Clase 4](codigos/clase.zip)  
 
 
 ## Envío de tareas
