@@ -73,7 +73,7 @@ En esta sección se irán subiendo los códigos utilizados durante la cursada.
 [Códigos Clase 2](codigos/clase2.zip)  
 [Códigos Clase 3](codigos/clase3.zip)  
 [Códigos Clase 4](codigos/clase4.zip)  
-[Códigos Clase 5](codigos/formularios1.html)  
+[Códigos Clase 5](codigos/formularios1.zip)  
 
 
 ## Envío de tareas
