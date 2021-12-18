@@ -79,5 +79,18 @@ En esta sección se irán subiendo los códigos utilizados durante la cursada.
 
 ## Envío de tareas
 
+**Trabajo final**
+
+Preparar un documento html respetando la estructura y elementos vistos en las clases. El documento debe contener como mínimo los siguientes items:
+
+- una tabla
+- una imagen
+- favicon
+- tres enlaces
+- un formulario 
+- una lista
+
+Fecha de entrega: 2 de enero 2022
+
 Pueden enviarme sus trabajos a mi correo electrónico: patriciamamani73@gmail.com  
 

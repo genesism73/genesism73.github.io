@@ -69,3 +69,4 @@ En contraste con las casillas de verificación o checklist, el valor del atribut
 El elemento `<select>` de HTML representa un control que muestra un menú de opciones. Las opciones contenidas en el menú son representadas por elementos `<option>`. Tanto select como option deben tener etiquetas de apertura y de cierre.
 
 
+[Volver a la página de Inicio](index.md)  
