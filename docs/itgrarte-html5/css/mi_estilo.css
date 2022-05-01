@@ -3,7 +3,7 @@ body{
     font-size: large;
 }
 
-.titulo {
+h1 {
     font-family: 'Dancing Script', cursive;
     color: darkblue;
 }
