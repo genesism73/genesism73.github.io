@@ -7,3 +7,7 @@ body{
     font-family: 'Dancing Script', cursive;
     color: darkblue;
 }
+
+textarea {
+    resize: none;
+}
