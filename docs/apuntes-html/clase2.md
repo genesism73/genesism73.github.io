@@ -14,7 +14,7 @@ Los elementos HTML no son muy útiles por sí mismos. Ahora veremos cómo combin
 </html>
 ~~~
 
-`<!DOCTYPE html>` esta etiqueta no indica que se trata de la última versión de html.  
+`<!DOCTYPE html>` esta etiqueta nos indica que se trata de la última versión de html.  
 `<html></html>`: El elemento `<html>`. Este elemento envuelve todo el contenido de la página. A veces se lo conoce como el elemento raíz.  
 `<head></head>`: El elemento `<head>` (cabecera). Este elemento actúa como contenedor para todos los parámetros que quieras incluir en el documento HTML que no serán visibles a los visitantes de la página. Incluye cosas como palabras clave y la descripción de la página que quieras mostrar en los resultados de búsqueda, así como la hoja de estilo para formatear nuestro contenido, declaraciones de codificación de caracteres y más.  
 `<meta charset="utf-8">`: Este elemento establece que tu documento HTML usará la codificación UTF-8, que incluye la gran mayoría de caracteres de todos los idiomas humanos escritos. En resumen: puede gestionar cualquier contenido textual que pongas en tu documento. No hay razón para no configurar este valor y te puede ayudar a evitar problemas más adelante.  
