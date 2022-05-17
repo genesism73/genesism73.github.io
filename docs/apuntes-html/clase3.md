@@ -40,7 +40,7 @@ El elemento HTML `<dl>`  representa una lista descriptiva. El elemento encierra 
 <dl>
 	<dt>guepardo</dt>
 	<dd>El felino más rápido</dd>
-<dt>León</dt>
+  <dt>León</dt>
 	<dd>El rey de la selva</dd>
 </dl>
 ~~~
