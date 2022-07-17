@@ -1,0 +1,16 @@
+.heading{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 3em;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: .3em;
+}
+
+footer{
+    text-align: center;
+    margin: 1em;
+}
