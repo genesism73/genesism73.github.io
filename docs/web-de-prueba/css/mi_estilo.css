@@ -1,7 +1,9 @@
 .heading{
     font-family: 'Dancing Script', cursive;
     font-weight: 700;
-    font-size: 3em;
+    font-size: 1.5em;
+    padding-left: 0.1em;
+    
 }
 
 nav ul li{
@@ -12,5 +14,5 @@ nav ul li{
 
 footer{
     text-align: center;
-    margin: 1em;
+    /* margin: 1em; */
 }
