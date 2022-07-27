@@ -33,3 +33,9 @@ footer{
     /* margin: 1em; */
 }
 
+footer ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: .5em;
+    margin: 1em 0.3em;   
+}
