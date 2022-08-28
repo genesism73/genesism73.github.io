@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    
+    <title>Accesibilidad Web 2022 - NIC & ANDIS</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/navbars/">
+
+    
+
+    
+
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="navbar.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+    <link href="blog.css" rel="stylesheet">
+    <link href="headers.css" rel="stylesheet">
+  </head>
+  <body>
+    
+
+  <!-- Header -->
+<div class="container">
+  <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-1 border-bottom">
+    <a href="/" class="d-flex align-items-center col-md-3 mb-1 mb-md-0 text-dark text-decoration-none">
+      <!-- <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg> -->
+      <img src="images/logo_aw.png" class="bi me-2" width="44"  alt="Accesibilidad">
+      
+    </a>
+
+    <div class="col-md-3 text-end">
+      <span>Accesibilidad Web</span>
+    </div>
+  </header>
+<!-- </div> -->
+  <!-- Fin de header -->
+      <!-- <div class="b-example-divider"></div> -->
+  <!-- Comienzo del nav -->
+<nav class="p-3 mb-3 border-bottom" style="background-color: rgb(236, 217, 250);">
+  <div class="container">
+    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+      <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+        <li><a href="#" class="nav-link px-2 link-dark">Overview</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">Inventory</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li><a href="#" class="nav-link px-2 link-dark">Products</a></li>
+      </ul>
+        <!-- imagen con menú desplegable -->
+      <div class="dropdown text-end">
+        <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          <img src="images/foto_fb.jpg" alt="patricia" width="32" height="32" class="rounded-circle">
+        </a>
+        <ul class="dropdown-menu text-small">
+          <li><a class="dropdown-item" href="#">New project...</a></li>
+          <li><a class="dropdown-item" href="#">Settings</a></li>
+          <li><a class="dropdown-item" href="#">Profile</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Sign out</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+</div>
+<div class="b-example-divider"></div>
+
+  <!-- Comienzo del contenido principal -->
+<main class="container">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="bootstrap" viewBox="0 0 118 94">
+      <title>Bootstrap</title>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"></path>
+    </symbol>
+    <symbol id="facebook" viewBox="0 0 16 16">
+      <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+    </symbol>
+    <symbol id="instagram" viewBox="0 0 16 16">
+        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+    </symbol>
+    <symbol id="twitter" viewBox="0 0 16 16">
+      <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+    </symbol>
+  </svg>
+  
+    <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
+      <div class="col-md-12 px-0">
+        <h1 class="display-4 col-md-9">¡Les damos la bienvenida!</h1>
+        <p class="lead my-3 col-md-12">Esta es una muestra de una selección de los criterios de accesibilidad en las páginas web.</p>
+        <p class="text-white fw-bold">30 de agosto de 2022</p>
+      </div>
+    </div>
+  
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary">Operable</strong>
+            <h3 class="mb-0">2.4.7 Enfoque visible</h3>
+            <p class="card-text mb-auto">Cualquier interfaz de usuario operable por teclado tiene un modo de operación donde el indicador de enfoque del teclado es visible.</p>
+            <a href="#" class="stretched-link">Continuar leyendo</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success">Perceptible</strong>
+            <h3 class="mb-0">1.4.1 Uso del color</h3>
+            <p class="card-text mb-auto">El color no se utiliza como el único medio visual para transmitir información, indicar una acción, provocar una respuesta o distinguir un elemento visual.</p>
+            <a href="#" class="stretched-link">Continuar leyendo</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="row g-5">
+      <div class="col-md-8">
+        <h3 class="pb-4 mb-4 fst-italic border-bottom">
+          Para tener en cuenta
+        </h3>
+  
+        <article class="blog-post">
+          <h2 class="blog-post-title mb-1">Qué debes saber si eres disñador</h2>
+          <p class="blog-post-meta">20 de julio de 2022 por <a href="#">Genesis</a></p>
+  
+          <p>En primer lugar, probablemente lo más conocido por todos los diseñadores, es que deben asegurar el contraste entre el color del texto y del fondo para garantizar que se pueda leer. Deben aplicar también esta revisión a los elementos no textuales que transmiten información, como gráficas e iconos, así como al borde de los campos de formulario o al indicador del foco si se modifica su diseño.</p>
+          <hr>
+          <p>El color puede usarse junto con otros recursos (tamaños, fuentes, textos, iconos, etc.) para crear elementos fáciles de identificar. Hay que pensar en las personas que no pueden distinguir los colores: si se utiliza solo el color para transmitir información, especialmente en gráficas, enlaces o calendarios, no van a poder comprenderlos.</p>
+          
+          <!-- <h2>Blockquotes</h2>
+          <p>This is an example blockquote in action:</p>
+          <blockquote class="blockquote">
+            <p>Quoted text goes here.</p>
+          </blockquote>
+          <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p> -->
+          
+          <h3>Ejemplos de listas</h3>
+          <p>Para mejorar la legibilidad de los contenidos, a veces  se pueden utilizar listas, a continuación se muestran algunos ejemplos:</p>
+          <p>Esta es una lista desordenada: </p>
+          <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ul>
+          <p>Y esta es una lista ordenada: </p>
+          <ol>
+            <li>Primer item</li>
+            <li>Segundo item</li>
+            <li>Tercer item</li>
+          </ol>
+          <p>Y esta es una lista descriptiva:</p>
+          <dl>
+            <dt>HyperText Markup Language (HTML)</dt>
+            <dd>Es el legunaje utilizado para la creación de páginas web.</dd>
+            <dt>Cascading Style Sheets (CSS)</dt>
+            <dd>Usado para dar estilo al contenido de una página web.</dd>
+            <dt>JavaScript (JS)</dt>
+            <dd>Es un lenguaje de programación utilizado para el contenido dinámico en los sitios web.</dd>
+          </dl>
+          <h2>Inline HTML elements</h2>
+          <p>HTML defines a long list of available inline tags, a complete list of which can be found on the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network</a>.</p>
+          <ul>
+            <li><strong>To bold text</strong>, use <code class="language-plaintext highlighter-rouge">&lt;strong&gt;</code>.</li>
+            <li><em>To italicize text</em>, use <code class="language-plaintext highlighter-rouge">&lt;em&gt;</code>.</li>
+            <li>Abbreviations, like <abbr title="HyperText Markup Language">HTML</abbr> should use <code class="language-plaintext highlighter-rouge">&lt;abbr&gt;</code>, with an optional <code class="language-plaintext highlighter-rouge">title</code> attribute for the full phrase.</li>
+            <li>Citations, like <cite>— Mark Otto</cite>, should use <code class="language-plaintext highlighter-rouge">&lt;cite&gt;</code>.</li>
+            <li><del>Deleted</del> text should use <code class="language-plaintext highlighter-rouge">&lt;del&gt;</code> and <ins>inserted</ins> text should use <code class="language-plaintext highlighter-rouge">&lt;ins&gt;</code>.</li>
+            <li>Superscript <sup>text</sup> uses <code class="language-plaintext highlighter-rouge">&lt;sup&gt;</code> and subscript <sub>text</sub> uses <code class="language-plaintext highlighter-rouge">&lt;sub&gt;</code>.</li>
+          </ul>
+          <p>Most of these elements are styled by browsers with few modifications on our part.</p>
+          
+          <h2>Encabezados</h2>
+          <p>Las páginas deben tener un único encabezado h1, el cual es el título principal de la
+            página y debe estar ubicado en el inicio del contenido principal de la página. (Sobre este tema hay bastante controversia, sobre todo en discusión con los especialistas en posicionamiento).</p>
+          <h3>Subencabezados</h3>
+          <p>Los subencabezados de h1 deben ser h2. Los subencabezados de h2 deben ser h3, y así sucesivamente. Por ejemplo, no se debe saltar de un h1 a un h3.</p>
+          <pre><code>
+            
+          </code></pre>
+        </article>
+  
+        <article class="blog-post">
+          <h2 class="blog-post-title mb-1">Another blog post</h2>
+          <p class="blog-post-meta">December 23, 2020 by <a href="#">Jacob</a></p>
+  
+          <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+          <blockquote>
+            <p>Longer quote goes here, maybe with some <strong>emphasized text</strong> in the middle of it.</p>
+          </blockquote>
+          <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+          
+          <h2>Ejemplo de tabla</h2>
+          <p>Si incluyes tablas, sigue estas recomendaciones:</p>
+
+          <table class="table">
+            <caption>Lista de cumpleaños</caption>
+            <tr>
+              <th scope="col">Nombre</th>
+              <th scope="col">Cumpleaños</th>
+              <th scope="col">Edad</th>
+            </tr>
+            <tr>
+              <th scope="row">Mariana</th>
+              <td>8 de mayo</td>
+              <td>28</td>
+            </tr>
+            <tr>
+              <th scope="row">Pedro</th>
+              <td>5 de enero</td>
+              <td>30</td>
+            </tr>
+          </table>
+          
+          <p>Se deben marcar los encabezados de columnas y filas, de esta forma facilitará la lectura a los usuarios de lectores de pantalla. Además es importante añadir un título a la tabla mediante el uso de la etiqueta caption</p>
+        </article>
+  
+        <article class="blog-post">
+          <h2 class="blog-post-title mb-1">New feature</h2>
+          <p class="blog-post-meta">December 14, 2020 by <a href="#">Chris</a></p>
+  
+          <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+          <ul>
+            <li>First list item</li>
+            <li>Second list item with a longer description</li>
+            <li>Third list item to close it out</li>
+          </ul>
+          <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.</p>
+        </article>
+  
+        <nav class="blog-pagination" aria-label="Pagination">
+          <a class="btn btn-outline-primary rounded-pill" href="#">Older</a>
+          <a class="btn btn-outline-secondary rounded-pill disabled">Newer</a>
+        </nav>
+  
+      </div>
+  
+      <div class="col-md-4">
+        <div class="position-sticky" style="top: 2rem;">
+          <div class="p-4 mb-3 bg-light rounded">
+            <h4 class="fst-italic">Importante</h4>
+            <p class="my-3"><strong>"La accesibilidad web es un derecho."</strong></p>
+          </div>
+  
+          <div class="p-4">
+            <h4 class="fst-italic">Información adicional</h4>
+            <ol class="list-unstyled mb-0">
+              <li><a href="https://www.w3.org/WAI/WCAG21/quickref/" target="_blank">Cómo cumplir con las WCAG (referencia rápida)</a></li>
+              <li><a href="https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/" target="_blank">Técnicas para WCAG 2.0</a></li>
+              <li><a href="https://olgacarreras.blogspot.com/" target="_blank">Usable y accesible - Olga Carreras</a></li>
+            </ol>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  
+  </main>
+<div class="b-example-divider"></div>
+
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <!-- <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+      </a> -->
+      <span class="mb-3 mb-md-0 text-muted">&copy; 2022 - Todos los derechos reservados</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-muted" href="https://twitter.com/PatryMamani" target="_blank"><svg aria-label="twiiter" class="bi" width="44" height="44"><use xlink:href="#twitter"/></svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/patricia.mamani.73/?hl=es-la" target="_blank"><svg aria-label="instagram" class="bi" width="44" height="44"><use xlink:href="#instagram"/></svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/patricia.mamani.716" target="_blank"><svg aria-label="facebook" class="bi" width="44" height="44"><use xlink:href="#facebook"/></svg></a></li>
+    </ul>
+  </footer>
+</div>
+
+<div class="b-example-divider"></div>
+
+
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
