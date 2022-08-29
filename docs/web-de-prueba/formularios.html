@@ -81,7 +81,36 @@
             </section>
             <br>
             <hr>
+            <h2>Formularios</h2>
+    <form class="form">
+      <fieldset>
+        <legend>Datos de contacto</legend>
+        <div class="form-group col-md-6">
+            <label class="form-label" for="nombre">Nombre (obligatorio):</label>
+            <input type="text" id="nombre" class="form-control" required name="form_name">
+            <label class="form-label" for="mail">E-mail (obligatorio):</label>
+            <input type="email" id="mail" class="form-control mb-2" required name="form_mail">
+        </div>
+      </fieldset>
 
+      <fieldset class="form-group">
+        <legend>Edad</legend>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" id="edad1" name="form_edad" value="18 a 25 años">
+            <label class="form-check-label" for="edad1">18 a 25 años</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" id="edad2" name="form_edad" value="25 a 45 años">
+            <label class="form-check-label" for="edad2">26 a 45 años</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" id="edad3" name="form_edad" value="Más de 45 años">
+            <label class="form-check-label" for="edad3">Más de 45 años</label>
+        </div>
+      </fieldset>
+      <input class="btn btn-success my-3" type="submit" value="Enviar">
+    </form>
+    
         </main>
     >
         <footer>
