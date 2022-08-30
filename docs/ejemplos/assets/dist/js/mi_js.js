@@ -25,3 +25,4 @@ $('#ShowPassword').click(function () {
     $('#Password').attr('type', $(this).is(':checked') ? 'text' : 'password');
 });
 });
+
