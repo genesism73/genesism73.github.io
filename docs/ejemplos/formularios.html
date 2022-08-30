@@ -152,15 +152,15 @@
   
     <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
       <div class="col-md-12 px-0">
-        <h1 class="display-4 col-md-9 fw-bold">¿Qué es la Accesibilidad Web?</h1>
-        <p class="lead my-3 col-md-12">"Acceso de todas las personas a la Web, independientemente del tipo de hardware, software, infraestructura de red, idioma, cultura, localización geográfica y capacidades de los usuarios"
+        <h1 class="display-4 col-md-9 fw-bold">Accesibilidad Web</h1>
+        <p class="lead my-3 col-md-12">"Es el arte de garantizar que, tan amplia y extensamente como sea posible, los medios (como por ejemplo el acceso a la Web) estén disponibles para las personas, tengan o no deficiencias de un tipo u otro."
         </p>
-        <p class="text-white fst-italic">World Wide Web Consortium (W3C)
+        <p class="text-white fst-italic">Tim Bernes Lee
         </p>
       </div>
     </div>
   
-    <div class="row mb-2">
+    <!-- <div class="row mb-2">
       <div class="col-md-6">
         <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
           <div class="col p-4 d-flex flex-column position-static">
@@ -188,7 +188,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="row g-5">
         <div class="col-md-8">
@@ -213,7 +213,9 @@
             <button type="submit" tabindex="-1" class="btn btn-primary">Enviar</button>
         </form>
     </section>
-    <br><hr>
+    <br>
+    <div class="b-example-divider"></div>
+    <hr>
     <section>
         <h2>Formulario 2</h2>
         <form>
@@ -225,9 +227,9 @@
             <div class="mb-3">
                 <label for="InputPassword1">Contraseña: </label>
                 <input type="password" class="form-control" id="InputPassword1" aria-describedby="passwordHelp">
-                <div>
+                <!-- <div>
                     <button id="show_password" class="btn" aria-label="mostrar contraseña" type="button" onclick="mostrarPassword()"> <span class="fa fa-eye-slash icon"></span> </button>
-                  </div>
+                  </div> -->
                 <div id="psswordHelp" class="form-text">La contraseña debe contener como mínimo 8 caracteres</div>
                 <!-- <button class="btn" type="button" onclick="mostrarContrasena()">Mostrar Contraseña</button> -->
             </div>
@@ -239,35 +241,36 @@
         </form>
     </section>
     <br>
+    <div class="b-example-divider"></div>
     <hr>
-    <h2>Formularios</h2>
-<form class="form">
-<fieldset>
-<legend>Datos de contacto</legend>
-<div class="form-group col-md-6">
-    <label class="form-label" for="nombre">Nombre (obligatorio):</label>
-    <input type="text" id="nombre" class="form-control" required name="form_name">
-    <label class="form-label" for="mail">E-mail (obligatorio):</label>
-    <input type="email" id="mail" class="form-control mb-2" required name="form_mail">
-</div>
-</fieldset>
+    <h2>Formulario 3</h2>
+  <form class="form">
+    <fieldset>
+      <legend>Datos de contacto</legend>
+      <div class="form-group col-md-6">
+          <label class="form-label" for="nombre">Nombre (obligatorio):</label>
+          <input type="text" id="nombre" class="form-control" required name="form_name">
+          <label class="form-label" for="mail">E-mail (obligatorio):</label>
+          <input type="email" id="mail" class="form-control mb-2" required name="form_mail">
+      </div>
+    </fieldset>
 
-<fieldset class="form-group">
-<legend>Edad</legend>
-<div class="form-check">
-    <input class="form-check-input" type="radio" id="edad1" name="form_edad" value="18 a 25 años">
-    <label class="form-check-label" for="edad1">18 a 25 años</label>
-</div>
-<div class="form-check">
-    <input class="form-check-input" type="radio" id="edad2" name="form_edad" value="25 a 45 años">
-    <label class="form-check-label" for="edad2">26 a 45 años</label>
-</div>
-<div class="form-check">
-    <input class="form-check-input" type="radio" id="edad3" name="form_edad" value="Más de 45 años">
-    <label class="form-check-label" for="edad3">Más de 45 años</label>
-</div>
-</fieldset>
-<input class="btn btn-success my-3" type="submit" value="Enviar">
+    <fieldset class="form-group">
+      <legend>Edad</legend>
+      <div class="form-check">
+          <input class="form-check-input" type="radio" id="edad1" name="form_edad" value="18 a 25 años">
+          <label class="form-check-label" for="edad1">18 a 25 años</label>
+      </div>
+      <div class="form-check">
+          <input class="form-check-input" type="radio" id="edad2" name="form_edad" value="25 a 45 años">
+          <label class="form-check-label" for="edad2">26 a 45 años</label>
+      </div>
+      <div class="form-check">
+          <input class="form-check-input" type="radio" id="edad3" name="form_edad" value="Más de 45 años">
+          <label class="form-check-label" for="edad3">Más de 45 años</label>
+      </div>
+    </fieldset>
+    <input class="btn btn-success my-3" type="submit" value="Enviar">
 </form>
 
         </div>
