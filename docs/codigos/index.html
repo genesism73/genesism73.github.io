@@ -187,10 +187,32 @@
   
    
     <div class="row g-5">
-        <div class="col-md-8">
+        <div class="col-md-8 row">
       
             <h2>contenido principal</h2>
+            <div class="col-md-6">
+              <h3>Imagen con descripción larga 1</h3>
+              <p>Una de las formas de añadir una descripción extensa (sólo si es necesario) es añadir al pie de la imagen un enlace con la descripción larga.</p>  
+              <figure>
+              <img src="imagenes/regiones html5.png" alt="regiones de una página web" class="w-100">
+              <figcaption>para más información puede ir al siguiente enlace con la <a href="descrpcion.html">descripción completa de landmarks con HTML5</a> </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-6">
+            <h3>Imagen con descripción larga 2</h3>
+            <p>Otra forma de añadir una descripción larga es utilizar el atributo longdesc</p>  
+            
+            <img src="imagenes/regiones html5.png" longdesc="descripcion_larga.html" alt="regiones de una página web" class="w-100">   
+        </div>
 
+        <div class="col-md-6">
+          <h3>Imagen con descripción larga 8</h3>
+          <p>En este caso se utiliza el atributo aria-labelledby</p>  
+          <img src="imagenes/regiones html5.png" aria-labelledby="regiones-label">
+
+          <p id="regiones-label">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa quia, distinctio, aspernatur exercitationem nemo commodi magni, iusto deserunt temporibus at cumque eaque maxime est soluta. Mollitia nostrum accusamus ut. Incidunt. </p>
+          
+      </div>
 
         </div>
       <div class="col-md-4">
