@@ -34,7 +34,7 @@
     --bs-secondary: #6c757d;
     --bs-success: #198754;
     --bs-info: #0dcaf0;
-    --bs-warning: #ffc107;
+    --bs-warning: #e7ea83;
     --bs-danger: #dc3545;
     --bs-light: #f8f9fa;
     --bs-dark: #01080f;
@@ -54,12 +54,12 @@
     --bs-font-monospace: system-ui,-apple-system, "Segoe UI", Roboto, "Liberation Mono", "Courier New", monospace;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
     --bs-body-font-family: var(--bs-font-sans-serif);
-    --bs-body-font-size: 1rem;
+    --bs-body-font-size: 2rem !important;
     --bs-body-font-weight: 400;
     --bs-body-line-height: 1.5;
     --bs-body-color: #000;
     --bs-body-bg: #fff;
-    --bs-border-width: 1px;
+    --bs-border-width: 2px;
     --bs-border-style: solid;
     --bs-border-color: #022141;
     --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
@@ -71,7 +71,7 @@
     --bs-border-radius-pill: 50rem;
     --bs-link-color: #0d6efd;
     --bs-link-hover-color: #0a58ca;
-    --bs-code-color: #d63384;
+    --bs-code-color: #39055d;
     --bs-highlight-bg: #fff3cd
 }
 
@@ -3715,7 +3715,7 @@ fieldset:disabled .btn {
     --bs-dropdown-padding-x: 0;
     --bs-dropdown-padding-y: 0.5rem;
     --bs-dropdown-spacer: 0.125rem;
-    --bs-dropdown-font-size: 1rem;
+    --bs-dropdown-font-size: 2rem;
     --bs-dropdown-color: #212529;
     --bs-dropdown-bg: #fff;
     --bs-dropdown-border-color: var(--bs-border-color-translucent);
@@ -4293,9 +4293,9 @@ fieldset:disabled .btn {
 .navbar {
     --bs-navbar-padding-x: 0;
     --bs-navbar-padding-y: 0.5rem;
-    --bs-navbar-color: rgba(0, 0, 0, 0.55);
-    --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
-    --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
+    --bs-navbar-color: #000000;
+    --bs-navbar-hover-color: rgba(0, 0, 0, 0.985);
+    --bs-navbar-disabled-color: rgba(0, 0, 0, 0);
     --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
     --bs-navbar-brand-padding-y: 0.3125rem;
     --bs-navbar-brand-margin-end: 1rem;
@@ -4307,7 +4307,7 @@ fieldset:disabled .btn {
     --bs-navbar-toggler-padding-x: 0.75rem;
     --bs-navbar-toggler-font-size: 1.25rem;
     --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-    --bs-navbar-toggler-border-color: rgba(0, 0, 0, 0.1);
+    --bs-navbar-toggler-border-color: #0000001a;
     --bs-navbar-toggler-border-radius: 0.375rem;
     --bs-navbar-toggler-focus-width: 0.25rem;
     --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
