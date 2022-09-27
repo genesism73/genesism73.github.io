@@ -54,7 +54,7 @@
     --bs-font-monospace: system-ui,-apple-system, "Segoe UI", Roboto, "Liberation Mono", "Courier New", monospace;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
     --bs-body-font-family: var(--bs-font-sans-serif);
-    --bs-body-font-size: 2rem !important;
+    --bs-body-font-size: 1,5rem !important;
     --bs-body-font-weight: 400;
     --bs-body-line-height: 1.5;
     --bs-body-color: #000;
