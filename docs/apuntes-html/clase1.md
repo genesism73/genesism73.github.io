@@ -6,7 +6,7 @@ Si queremos que la línea sea independiente de otras, podemos especificar que es
 ~~~
 <p>Mi gato es muy gruñón</p>
 ~~~
-**Nota:** Las etiquetas en HTML no distinguen entre mayúsculas y minúsculas. Así que se pueden escribir tanto en mayúsculas como en minúsculas. Por ejemplo, una etiqueta <title> se puede escribir como `<title>, <TITLE>, <Title>, <TiTle>`, etc., y funcionará correctamente. La mejor práctica, sin embargo, es escribir todas las etiquetas en minúsculas para mantener la coherencia y legibilidad, entre otros motivos.
+**Nota:** Las etiquetas en HTML no distinguen entre mayúsculas y minúsculas. Así que se pueden escribir tanto en mayúsculas como en minúsculas. Por ejemplo, una etiqueta `<title>` se puede escribir como `<title>`, `<TITLE>`, `<Title>`, `<TiTle>`, etc., y funcionará correctamente. La mejor práctica, sin embargo, es escribir todas las etiquetas en minúsculas para mantener la coherencia y legibilidad, entre otros motivos.
 
 ## Anatomía de un elemento HTML
 Exploremos un poco el elemento párrafo:
@@ -179,7 +179,7 @@ En el lenguaje humano, a menudo enfatizamos ciertas palabras para alterar el sig
 ### Énfasis
 Cuando queremos dar énfasis al lenguaje hablado, acentuamos ciertas palabras y así alteramos sutilmente el significado de lo que decimos. De manera similar, en el lenguaje escrito ponemos palabras en cursiva para destacarlas. 
 
-En HTML usamos el elemento `<em>` («emphasis») para marcar estos casos. El documento logra entonces transmitir una lectura más interesante y además así lo reconocen los lectores de pantalla, que lo expresan con un diferente tono de voz. El navegador, de manera predeterminada, aplica el estilo de letra itálica, pero no debes utilizar esta etiqueta solamente para establecer el estilo de letra itálica. Para usar ese estilo, debes utilizar únicamente la etiqueta del elemento <span> y algo de CSS u otra etiqueta con el elemento <i> (ve abajo).
+En HTML usamos el elemento `<em>` («emphasis») para marcar estos casos. El documento logra entonces transmitir una lectura más interesante y además así lo reconocen los lectores de pantalla, que lo expresan con un diferente tono de voz. El navegador, de manera predeterminada, aplica el estilo de letra itálica, pero no debes utilizar esta etiqueta solamente para establecer el estilo de letra itálica. Para usar ese estilo, debes utilizar únicamente la etiqueta del elemento `<span>` y algo de CSS u otra etiqueta con el elemento `<i>`.
 ~~~
 <p>Me <em>alegro</em> de que no llegues <em>tarde</em>.</p>
 ~~~
@@ -196,4 +196,4 @@ Los elementos que hemos comentado hasta ahora tienen asociada una semántica cla
 
 Una observación prudente acerca del subrayado: La gente suele asociar estrechamente el subrayado con los hipervínculos. Por ello en la web es mejor reservar el subrayado para los enlaces. Utiliza el elemento `<u>` cuando resulte apropiado semánticamente, pero considera usar CSS para cambiar el subrayado predeterminado por algo más adecuado en la web.
 
-[Volver a la página de Inicio](index.md)  
+<!-- [Volver a la página de Inicio](index.md)   -->
