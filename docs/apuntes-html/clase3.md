@@ -79,5 +79,5 @@ Especifica en donde desplegar la URL enlazada. Es un nombre, o palabra clave, un
 - _top: Carga la URL en le contexto más alto de navegación . Si no hay padre, este se comporta del mismo modo que _self.
 
 
-[Volver a la página de Inicio](index.md)  
+<!-- [Volver a la página de Inicio](index.md)   -->
 

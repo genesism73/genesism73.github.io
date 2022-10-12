@@ -123,4 +123,4 @@ Es bueno entender el significado global de todos los elementos definitorios de l
 </body>
 ~~~
 
-[Volver a la página de Inicio](index.md)  
+<!-- [Volver a la página de Inicio](index.md)   -->

@@ -84,4 +84,4 @@ Todos los elementos `<th>` deben tener siempre un atributo de alcance (scope). S
 </table>
 ~~~
 
-[Volver a la página de Inicio](index.md)  
+<!-- [Volver a la página de Inicio](index.md)   -->
