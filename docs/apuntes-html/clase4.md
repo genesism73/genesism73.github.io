@@ -14,7 +14,7 @@ Los navegadores no siempre muestran la imagen a la que el elemento hace referenc
 ### Atributos elementales
 
 **src**  
-La URL de la imagen. Este atributo es obligatorio para el elemento `<img>`.
+La URL de la imagen. Este atributo es obligatorio para el elemento `<img>`.  
 **alt**  
 Este atributo define el texto alternativo que describe la imagen, texto que los usuarios verán si la URL de la imagen es errónea o la imagen tiene un formato no soportado o si la imagen aún no se ha descargado.
 **height**  
