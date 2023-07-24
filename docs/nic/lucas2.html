@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"    rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Página de ejemplos</title>
+    <!-- <link rel="stylesheet" href="estilo.css"> -->
+    <style>
+      nav ul, nav li {
+      display:inline-block;
+      list-style:none;
+      margin:0;
+      padding:0;
+    }
+    
+    nav > ul {
+      background:#ccc;
+      /* height:2em; */
+      width:100%;
+    }
+    
+    nav > ul > li {
+      line-height:2rem;
+      position:relative;
+      float:left;
+      padding:1rem;
+      margin-left: 10px;
+    }
+    
+     #lm1, #lm2{
+      position:absolute;
+      left:0;
+      top:40px;
+      background: #ccc;
+      visibility:hidden;
+    }
+    
+    nav > ul > li:hover > ul {
+      display:block;
+    }
+    
+    nav > ul > li > ul > li {
+      width:10rem;
+      padding:10px;
+    }
+
+    nav > ul>li>a:hover, nav>ul>li>ul>li>a:hover, nav > ul>li>a:focus, nav>ul>li>ul>li>a:focus{
+    color: white;
+    background-color: black;
+    padding: 10px;
+  }
+    .icon{
+    font-size: 40px;
+    color: black;
+}
+.header,.footer{
+    background-color: #c78283;
+    /* margin: 2rem 0; */
+}
+.main{
+    background-color: #f3d9dc;
+    /* margin: 2rem 0; */
+    /* padding: 2rem; */
+}
+
+.logo{
+    width: 44px;
+    height: 44px;
+}
+    </style>
+  </head>
+  <body>
+    <div id="header" class="header text-center p-5">
+      <h1>Página de ejemplos</h1>
+    </div>
+    <nav class="nav">
+      <ul class="">
+        <li><a href="pagina.html"><img src="home.jpg" class="logo"></a></li>
+        <li>
+          <a aria-expanded="false" id="m1" onclick="expandir('m1','lm1')" onfocus="cerrar('m1','lm1')" href="#">Sección 2</a>
+          <ul id="lm1">
+            <li><a href="#">Sub-Sección 2.1</a></li>
+            <li><a href="#">Sub-Sección 2.2</a></li>
+            <li><a href="#">Sub-Sección 2.3</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" aria-expanded="false" id="m2" onclick="expandir('m2','lm2')" onfocus="cerrar('m2','lm2')">Sección 3</a>
+          <ul id="lm2">
+            <li><a href="#">Sub-Sección 3.1</a></li>
+            <li><a href="#">Sub-Sección 3.2</a></li>
+          </ul>
+        </li>
+        <li><a href="#contacto"><img src="contacto.jpg" class="logo"></a></li>
+      </ul>
+    </nav>
+  
+  <div  class="main  p-5" id="principal">
+  <h2 class="text-center">Ejemplos</h2>
+  <div class="row justify-content-md-center">
+    <div class="col-sm-12 col-md-9 col-lg-8 ">
+      <h3>Formulario</h3>
+      <form class="form">
+        <div class="form-group my-2">
+          <label for="user">Nombre de usuario: </label>
+          <input type="email" class="form-control text-dark border border-dark"  aria-describedby="usuarioHelp" placeholder="">
+          <small id="usuarioHelp" class="form-text text-black">El nombre de usuario es el correo con cual se registró</small>
+        </div>
+        <div class="form-group my-2">
+          <label for="exampleInputPassword1">Clave: </label>
+          <input type="password" class="form-control text-dark border border-dark" id="exampleInputPassword1" placeholder="Password">
+          <small id="claveHelp" class="form-text text-white">La clave debe ser segura, contener no menos de 8 caracteres, entre ellos minúsculas, mayúsculas, números y puntuación especial</small>
+        </div>
+        <div class="form-check my-2">
+          <input type="checkbox" class="form-check-input border border-dark" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Acepto los términos</label>
+        </div>
+        <button type="submit" class="btn btn-primary m-3" aria-label="Enviar"><i class="bi bi-send"></i></button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<footer class="p-5 footer ">
+  <h4>Información</h4>
+  <div class="row text-center">
+  <div class="col-sm-12 col-md-6">
+    <h5>Redes sociales</h5>
+    <ul>
+      <li class="d-inline"><a href="#"><i class="bi bi-facebook icon"></i></a></li>
+      <li class="d-inline"><a href="#"><i class="bi bi-twitter icon"></i></a></li>
+      <li class="d-inline"><a href="#"><i class="bi bi-instagram icon"></i></a></li>
+    </ul>
+    </div>
+  <div id="contacto" class="col-sm-12 col-md-6">
+  <h6>Dirección</h6>
+  <p>Calle XX altura X</p>
+  </div>
+  </div>
+  </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script>
+function expandir(a, c){
+var b = document.getElementById(a);
+b.setAttribute("aria-expanded", "true");
+var m = document.getElementById(c);
+m.style.visibility = "visible";
+}
+function cerrar(x, y) {
+  document.addEventListener("keydown", function(event) {
+  if (event.key === "Escape") {
+  ele = document.getElementById(x);
+ele.setAttribute("aria-expanded", "false");
+var m = document.getElementById(y);
+m.style.visibility = "hidden";
+}
+});
+  }
+</script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.2/dist/umd/popper.min.js" integrity="sha384-q9CRHqZndzlxGLOj+xrdLDJa9ittGte1NksRmgJKeCV9DrM7Kz868XYqsKWPpAmn" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
