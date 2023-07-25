@@ -68,7 +68,7 @@
     </style>
   </head>
   <body>
-    <div id="header" class="header text-center p-5">
+    <div role="banner" id="header" class="header text-center p-5">
       <h1>Página de ejemplos</h1>
     </div>
     
@@ -94,7 +94,7 @@
       </ul>
     </nav>
     <hr>
-  <div  class="main  p-5" id="principal">
+  <div role="main" class="main  p-5" id="principal">
   <h2 class="text-center mt-2 mb-5">Ejemplos</h2>
   <div class="row justify-content-md-center">
     <div class="col-sm-12 col-md-9 col-lg-8 ">
@@ -107,7 +107,7 @@
         </div>
         <div class="form-group my-2">
           <label for="exampleInputPassword1"  class="fw-bold mb-1">Clave: </label>
-          <input type="password" class="form-control text-dark border border-dark" id="exampleInputPassword1" placeholder="Password">
+          <input type="password" class="form-control text-dark border border-dark" id="exampleInputPassword1" placeholder="Password" aria-describedby="claveHelp">
           <small id="claveHelp" class="form-text text-dark">La clave debe ser segura, contener no menos de 8 caracteres, entre ellos minúsculas, mayúsculas, números y puntuación especial</small>
         </div>
         <div class="form-check my-2">
@@ -127,7 +127,7 @@
     <h5>Redes sociales</h5>
     <ul>
       <li class="d-inline"><a href="http://www.facebook.com" aria-label="Facebook"><i class="bi bi-facebook icon"></i></a></li>
-      <li class="d-inline"><a href="#" title="Twitter"><i class="bi bi-twitter icon"></i></a></li>
+      <li class="d-inline"><a href="#" aria-label="Twitter"><i class="bi bi-twitter icon"></i></a></li>
       <li class="d-inline"><a href="#" aria-label="Instagram"><i class="bi bi-instagram icon"></i></a></li>
     </ul>
     </div>
