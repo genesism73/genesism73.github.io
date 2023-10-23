@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patricia Mamani - ¿Quién soy?</title>
+    <link rel="shortcut icon" href="img/foto_fb.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/aca9be1491.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            background-color: black !important;
+            color: white;
+        }
+        h1, h2, h3, h4, h5, h6{
+            color: var(--bs-yellow);
+            font-weight: normal;
+        }
+        nav>div>ul>li>a:focus, nav>div>ul>li>a:hover, .nav-item>ul>li>a:hover, .nav-item>ul>li>a:focus 
+         {
+            background-color: var(--bs-purple);
+            color: white;
+        }
+    </style>
+</head>
+<body class="container">
+    <!-- inicio de header -->
+    <header class="d-flex justify-content-center py-3 border-bottom">
+      <div class="row">  
+      <div class="col-12 col-md-4 col-lg-3 p-2 ">
+          <img src="img/foto_fb.jpg" class="rounded-circle w-25"  alt="">
+        </div>
+        <div class="col-12 col-md-8 col-lg-9 p-2 my-auto fs-1">
+          <span>Patricia Mamani</span>
+            <!-- <img src="img/firma_patricia_mamani.png" alt="Patricia Mamani" class="w-75"> -->
+        </div>
+      </div>
+    </header>
+    <!-- fin de header -->
+
+    <!-- inicio de menú de navegacón -->
+    <nav class="p-3 mb-3 border-bottom">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="index.html" class="nav-link text-white px-2">Inicio</a></li>
+              <li><a href="cv.html" class="nav-link px-2 text-white">Mi CV</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Sobre mí</a>
+                <ul class="dropdown-menu bg-dark">
+                  <li><a class="dropdown-item text-white active" aria-current="page" href="quiensoy.html">¿Quién soy?</a></li>
+                  <li><a class="dropdown-item text-white" href="quehago.html">¿Qué hago?</a></li>
+                  <li><a class="dropdown-item text-white" href="familia.html">Mi familia</a></li>
+                </ul>
+              </li>
+              <li><a href="contacto.html" class="nav-link px-2 text-white">Contacto</a></li>
+            </ul>
+              
+          </div>
+        
+      </nav>
+      <!-- fin de menú de navegación -->
+    <main class="my-5">
+        <div class="jumbotron">
+            <h1 class="display-4 text-center mb-5">¿Quién soy?</h1>
+        </div>
+        <article class="border rounded m-5 p-5">
+            <section class="mb-5">
+                <h2 class="my-4">Mi niñez y adolescencia</h2>
+                <p>Los primeros recuerdos que tengo de cuando era chica, datan de mis cuatro años aproximadamente, y recuerdo que vivía en un barrio tranquilo a pesar de ser ciudad. Tengo recuerdos de mis hermanas más cercanas de edad, con quienes compartía la mayor parte de juegos y tiempo. En ese tiempo, mi casa me parecía muy grande. Muchos años más tarde me dí cuenta que en realidad, era más bien pequeña.</p>
+                <p>Cuando comencé la escuela primaria, tuve que mudarme a otra provincia, otra casa, y por supuesto otras personas. En esa provincia crecí y pasé una época muy linda poque tenía muchos amigos, jugaba todo el día con ellos, con algunos éramos compañeros en la escuela, y tengo recuerdos muy lindos.</p>
+                <p>Luego de algunos años, tuve que volver a mi antigua casa y continuar viviendo nuevamente en Buenos Aires. A partir de ahí continué mis estudios, ya para ese entonces, tenía problemas visuales, pero todavía conservaba buena visión. Cuando tenía 21 años tuve a mi hija Anabella, quien es la persona más importante para mí. </p>
+            </section>
+            <section class="mb-5">
+                <h2 class="my-4">Mi crecimiento personal</h2>
+                <p>Siempre voy a agradecer el momento en que conocí algunos cosas que cambiaron mi vida, por ejemplo mi bastón, que me ayudó a tener más seguridad en cada paso que doy. Empecé a usar una computadora con un lector de pantalla y a veces también un magnificador, que me permitieron avanzar en situaciones que no las hubiera imaginado. Son cosas que me sirvieron para crecer personalmente, y obviamente, siguen siendo mi apoyo fundamental para todo lo que hago actualmente.</p>
+                <p>Fueron muchos años de trabajo y estudio para ser quien soy actualmente. Me gusta mucho lo que hago, y estoy orgullosa de lo que conseguí hasta el momento, aunque haya empezado un poco tarde, pero eso no importa mucho, lo importante es que sigo avanzando en distintas áreas de mi vida, como mi formación, mi trabajo, y por supuesto mi persona. </p>
+            </section>
+            <section>
+                <!-- Comienzo de card con mi información -->
+                <div class="card bg-dark mb-3 p-3 border rounded" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="img/foto_fb.jpg" class="img-fluid rounded-start" alt="">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h3 class="card-title text-warning">Patricia Mamani</h3>
+                          <p class="card-text">Programadora, Profesora de Ciegos y Disminuidos Visuales, Consultora en Accesibilidad Web, mamá de Anabella, entre otras cosas cocinera, deportista y a veces soñadora.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </section>
+            
+        </article>
+    </main>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-5 border-top border-bottom">
+      <div class="col-md-4 d-flex align-items-center mx-5">
+        <span class="mb-3 mb-md-0 fst-normal">Página realizada por <strong>Patricia Mamani</strong></span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="mx-3"><a class="text-info" href="https://www.linkedin.com/in/patricia-mamani-7a196619/" target="_blank" aria-label="Linkedin"><i class="fa fa-3x fa-linkedin p-2" aria-hidden="true"></i></a></li>
+        <li class="mx-3"><a class="text-info" href="https://www.instagram.com/patricia.mamani.73/?hl=es-la" target="_blank" aria-label="Instagram"><i class="fa fa-3x fa-instagram p-2" aria-hidden="true"></i></a></li>
+        <li class="mx-3"><a class="text-info" href="https://www.facebook.com/patricia.mamani.716" target="_blank" aria-label="Facebook"><i class="fa fa-3x fa-facebook p-2" aria-hidden="true"></i></a></li>
+      </ul>
+  </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
