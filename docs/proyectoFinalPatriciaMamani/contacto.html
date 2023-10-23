@@ -64,24 +64,29 @@
             <p class="lead">Si deseas contactarte conmigo, completa el siguiente formulario y te responderé a la brevedad, también dejo a disposición mis redes sociales.</p>
             <p class="lead">Muchas gracias por el interés, un cordial saludo.</p>
         </div>
-        <form action="">
-            <div class="mb-3">
-                <label for="nombre" class="form-label">Nombre: </label>
-                <input type="text" id="nombre" name="nombre" class="form-control">
-            </div>
-            <div class="mb-3">
-                <label for="email" class="form-label">Correo electrónico: </label>
-                <input type="email" id="email" name="email" required class="form-control">
-            </div>
-            <div class="mb-3">
-                <label for="mensaje" class="form-label">Mensaje:</label>
-                <textarea name="mensaje" id="mensaje" cols="30" rows="5" class="form-control"></textarea>
-            </div>
-            <div class="mb-3 text-center">
-                <input type="submit" class="btn btn-success bg-success">
-            </div>
-            
-        </form>
+        <div class="row my-5">
+          <div class="col-12 col-sm-8 col-lg-6 mx-auto d-block border border-warning rounded p-5">
+            <form action="">
+              <div class="mb-3">
+                  <label for="nombre" class="form-label">Nombre (Obligatorio): </label>
+                  <input type="text" id="nombre" name="nombre" required class="form-control">
+              </div>
+              <div class="mb-3">
+                  <label for="email" class="form-label">Correo electrónico (Obligatorio): </label>
+                  <input type="email" id="email" name="email" required class="form-control">
+              </div>
+              <div class="mb-5">
+                  <label for="mensaje" class="form-label">Mensaje (Obligatorio):</label>
+                  <textarea name="mensaje" id="mensaje" required cols="30" rows="5" class="form-control"></textarea>
+              </div>
+              <div class="mb-3 text-center">
+                  <input type="submit" class="btn btn-success bg-success" value="Enviar mensaje">
+              </div>
+              
+          </form>
+          </div>
+        </div>
+        
     </main>
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-5 border-top border-bottom">
         <div class="col-md-4 d-flex align-items-center mx-5">
