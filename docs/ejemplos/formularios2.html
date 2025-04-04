@@ -194,7 +194,7 @@
         <div class="col-md-8">
       
 
-    <section>
+    <!-- <section>
         <h2>Formulario 1</h2>
         <form>
             <div class="mb-3">
@@ -212,25 +212,25 @@
             </div>
             <button type="submit" tabindex="-1" class="btn btn-primary">Enviar</button>
         </form>
-    </section>
+    </section> -->
     <br>
     <div class="b-example-divider"></div>
     <hr>
     <section>
-        <h2>Formulario 2</h2>
+        <h2>Formulario de inicio de sesión</h2>
         <form>
             <div class="mb-3">
                 <label for="InputEmail1" class="form-label">Correo electrónico: </label>
-                <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">No compartiremos tus datos.</div>
+                <input type="email" class="form-control" id="InputEmail1" aria-describedby="ayuda-correo">
+                <div id="ayuda-correo" class="form-text">No compartiremos tus datos.</div>
             </div>
             <div class="mb-3">
                 <label for="InputPassword1">Contraseña: </label>
-                <input type="password" class="form-control" id="InputPassword1" aria-describedby="passwordHelp">
+                <input type="password" class="form-control" id="InputPassword1" aria-describedby="ayuda-pwd">
                 <!-- <div>
                     <button id="show_password" class="btn" aria-label="mostrar contraseña" type="button" onclick="mostrarPassword()"> <span class="fa fa-eye-slash icon"></span> </button>
                   </div> -->
-                <div id="passwordHelp" class="form-text">La contraseña debe contener como mínimo 8 caracteres</div>
+                <div id="ayuda-pwd" class="form-text">La contraseña debe contener como mínimo 8 caracteres</div>
                 <!-- <button class="btn" type="button" onclick="mostrarContrasena()">Mostrar Contraseña</button> -->
             </div>
             <div class="mb-3 form-check">
@@ -256,18 +256,18 @@
     </fieldset>
 
     <fieldset class="form-group">
-      <legend>Edad</legend>
+      <legend>Seleccione la fecha que asistirá al evento:</legend>
       <div class="form-check">
-          <input class="form-check-input" type="radio" id="edad1" name="form_edad" value="18 a 25 años">
-          <label class="form-check-label" for="edad1">18 a 25 años</label>
+          <input class="form-check-input" type="radio" id="fecha1" name="form_fecha" value="18/05/2025">
+          <label class="form-check-label" for="fecha1">18 de mayo de 2025</label>
       </div>
       <div class="form-check">
-          <input class="form-check-input" type="radio" id="edad2" name="form_edad" value="25 a 45 años">
-          <label class="form-check-label" for="edad2">26 a 45 años</label>
+          <input class="form-check-input" type="radio" id="fecha2" name="form_fecha" value="26/05/2025">
+          <label class="form-check-label" for="fecha2">26 de mayo de 2025</label>
       </div>
       <div class="form-check">
-          <input class="form-check-input" type="radio" id="edad3" name="form_edad" value="Más de 45 años">
-          <label class="form-check-label" for="edad3">Más de 45 años</label>
+          <input class="form-check-input" type="radio" id="fecha3" name="form_fecha" value="05/06/2025">
+          <label class="form-check-label" for="fecha3">5 de junio de 2025</label>
       </div>
     </fieldset>
     <input class="btn btn-success my-3" type="submit" value="Enviar">
